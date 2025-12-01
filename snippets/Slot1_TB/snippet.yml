@@ -1,0 +1,4 @@
+name: Slot1_TB
+append:
+  EXTRA_DTC_OVERLAY_FILE: Slot1_TB.overlay
+  EXTRA_CONF_FILE: Slot1_TB.conf

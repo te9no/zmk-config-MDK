@@ -1,0 +1,25 @@
+ 0  [1]   X SDA SDIO
+ 1  [1]   Y SCL IRQ
+ 2  [2]   X SDA SDIO
+ 3  [2]   Y SCL IRQ
+ 4  [3]   X SDA SDIO
+ 5  [3]   Y SCL IRQ
+ 6  [1]   E_A KEY NCS
+
+10  [3]   E_A KEY NCS
+ 9  [2]   E_B SCK DR
+ 8  [2]   E_A KEY NCS
+ 7  [1]   E_B SCK DR
+
+
+
+11  [3]   E_B SCK DR
+12  [KEY] INT
+13  [KEY] Pin1
+14  [KEY] Pin2
+15  [KEY] Pin3
+16  [KEY] Pin4
+
+17  [KEY] Pin5
+18
+19

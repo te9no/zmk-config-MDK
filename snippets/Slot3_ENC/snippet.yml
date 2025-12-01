@@ -1,0 +1,4 @@
+name: Slot3_ENC
+append:
+  EXTRA_DTC_OVERLAY_FILE: Slot3_ENC.overlay
+  EXTRA_CONF_FILE: Slot3_ENC.conf
