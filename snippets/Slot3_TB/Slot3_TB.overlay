@@ -18,9 +18,9 @@
 };
 
 / {
-    trackball_listener: trackball_listener {
+    trackball_listener_slot3: trackball_listener_slot3 {
         compatible = "zmk,input-listener";
-        device = <&trackball>;
+        device = <&trackball_slot3>;
         status = "okay";
         input-processors = <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>, <&zip_xy_scaler 1 16>, <&zip_xy_to_scroll_mapper>;
     };
@@ -34,9 +34,9 @@
     pinctrl-names = "default", "sleep";
     cs-gpios = <&xiao_d 10 GPIO_ACTIVE_LOW>;
 
-    trackball: trackball@0 {
+    trackball_slot3: trackball@0 {
         status = "okay";
-        compatible = "pixart,pmw3610";
+        compatible = "pixart,pmw3610-alt";
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;

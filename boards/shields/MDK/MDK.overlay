@@ -1,10 +1,11 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
+
 #include "MDK.dtsi"
 
-/ {
+/ {
     zip_keybind_keys: zip_keybind_keys {
         compatible = "zmk,input-processor-keybind";
         #input-processor-cells = <0>;
@@ -17,36 +18,16 @@
         wait-ms = <0>;
         tap-ms = <10>;
     };
-   
 
     kscan0: kscan0 {
-        compatible = "zmk,kscan-composite";
-        matrix {
-            kscan = <&kscan1>;
-        };
-        direct {
-            row-offset = <6>;
-            kscan = <&kscan2>;
-        };
-    };
-
-    kscan1: kscan1 {
         compatible = "zmk,kscan-gpio-charlieplex";
-        interrupt-gpios = <&xiao_d 6 (GPIO_ACTIVE_HIGH)>;
+        interrupt-gpios = <&gpio0 19 (GPIO_ACTIVE_HIGH)>;
         gpios
-            = <&xiao_d  0 (GPIO_ACTIVE_HIGH)>
-            , <&xiao_d  1 (GPIO_ACTIVE_HIGH)>
-            , <&xiao_d  2 (GPIO_ACTIVE_HIGH)>
-            , <&xiao_d  3 (GPIO_ACTIVE_HIGH)>
+            = <&gpio1   1 (GPIO_ACTIVE_HIGH)>
             , <&gpio0   9 (GPIO_ACTIVE_HIGH)>
             , <&gpio0  10 (GPIO_ACTIVE_HIGH)>
+            , <&gpio0  31 (GPIO_ACTIVE_HIGH)>
+            , <&gpio1   3 (GPIO_ACTIVE_HIGH)>
             ;
     };
-    
-    kscan2: kscan2 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
-        rows = <0>;
-        events = <0>;
-    };
-};
+};

@@ -1,234 +1,234 @@
 ---
 include:
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_ENC Slot3_ENC
-    artifact-name: MDK_ENC_ENC_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_ENC Slot3_ENC
+  #   artifact-name: MDK_ENC_ENC_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_ENC Slot3_JOY
-    artifact-name: MDK_ENC_ENC_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_ENC Slot3_JOY
+  #   artifact-name: MDK_ENC_ENC_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_ENC Slot3_TB
-    artifact-name: MDK_ENC_ENC_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_ENC Slot3_TB
+  #   artifact-name: MDK_ENC_ENC_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_JOY Slot3_ENC
-    artifact-name: MDK_ENC_JOY_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_JOY Slot3_ENC
+  #   artifact-name: MDK_ENC_JOY_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_JOY Slot3_JOY
-    artifact-name: MDK_ENC_JOY_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_JOY Slot3_JOY
+  #   artifact-name: MDK_ENC_JOY_JOY
 
   - board: seeeduino_xiao_ble
     shield: MDK rgbled_adapter nice_oled
     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_JOY Slot3_TB
     artifact-name: MDK_ENC_JOY_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_TB Slot3_ENC
-    artifact-name: MDK_ENC_TB_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_TB Slot3_ENC
+  #   artifact-name: MDK_ENC_TB_ENC
 
   - board: seeeduino_xiao_ble
     shield: MDK rgbled_adapter nice_oled
     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_TB Slot3_JOY
     artifact-name: MDK_ENC_TB_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_TB Slot3_TB
-    artifact-name: MDK_ENC_TB_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_ENC Slot2_TB Slot3_TB
+  #   artifact-name: MDK_ENC_TB_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_ENC Slot3_ENC
-    artifact-name: MDK_JOY_ENC_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_ENC Slot3_ENC
+  #   artifact-name: MDK_JOY_ENC_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_ENC Slot3_JOY
-    artifact-name: MDK_JOY_ENC_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_ENC Slot3_JOY
+  #   artifact-name: MDK_JOY_ENC_JOY
 
   - board: seeeduino_xiao_ble
     shield: MDK rgbled_adapter nice_oled
     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_ENC Slot3_TB
     artifact-name: MDK_JOY_ENC_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_JOY Slot3_ENC
-    artifact-name: MDK_JOY_JOY_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_JOY Slot3_ENC
+  #   artifact-name: MDK_JOY_JOY_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_JOY Slot3_JOY
-    artifact-name: MDK_JOY_JOY_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_JOY Slot3_JOY
+  #   artifact-name: MDK_JOY_JOY_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_JOY Slot3_TB
-    artifact-name: MDK_JOY_JOY_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_JOY Slot3_TB
+  #   artifact-name: MDK_JOY_JOY_TB
 
   - board: seeeduino_xiao_ble
     shield: MDK rgbled_adapter nice_oled
     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_TB Slot3_ENC
     artifact-name: MDK_JOY_TB_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_TB Slot3_JOY
-    artifact-name: MDK_JOY_TB_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_TB Slot3_JOY
+  #   artifact-name: MDK_JOY_TB_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_TB Slot3_TB
-    artifact-name: MDK_JOY_TB_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_JOY Slot2_TB Slot3_TB
+  #   artifact-name: MDK_JOY_TB_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_ENC Slot3_ENC
-    artifact-name: MDK_KEY_ENC_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_ENC Slot3_ENC
+  #   artifact-name: MDK_KEY_ENC_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_ENC Slot3_JOY
-    artifact-name: MDK_KEY_ENC_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_ENC Slot3_JOY
+  #   artifact-name: MDK_KEY_ENC_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_ENC Slot3_TB
-    artifact-name: MDK_KEY_ENC_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_ENC Slot3_TB
+  #   artifact-name: MDK_KEY_ENC_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_JOY Slot3_ENC
-    artifact-name: MDK_KEY_JOY_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_JOY Slot3_ENC
+  #   artifact-name: MDK_KEY_JOY_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_JOY Slot3_JOY
-    artifact-name: MDK_KEY_JOY_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_JOY Slot3_JOY
+  #   artifact-name: MDK_KEY_JOY_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_JOY Slot3_TB
-    artifact-name: MDK_KEY_JOY_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_JOY Slot3_TB
+  #   artifact-name: MDK_KEY_JOY_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_TB Slot3_ENC
-    artifact-name: MDK_KEY_TB_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_TB Slot3_ENC
+  #   artifact-name: MDK_KEY_TB_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_TB Slot3_JOY
-    artifact-name: MDK_KEY_TB_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_TB Slot3_JOY
+  #   artifact-name: MDK_KEY_TB_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_TB Slot3_TB
-    artifact-name: MDK_KEY_TB_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_KEY Slot2_TB Slot3_TB
+  #   artifact-name: MDK_KEY_TB_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_ENC Slot3_ENC
-    artifact-name: MDK_RZT_ENC_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_ENC Slot3_ENC
+  #   artifact-name: MDK_RZT_ENC_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_ENC Slot3_JOY
-    artifact-name: MDK_RZT_ENC_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_ENC Slot3_JOY
+  #   artifact-name: MDK_RZT_ENC_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_ENC Slot3_TB
-    artifact-name: MDK_RZT_ENC_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_ENC Slot3_TB
+  #   artifact-name: MDK_RZT_ENC_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_JOY Slot3_ENC
-    artifact-name: MDK_RZT_JOY_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_JOY Slot3_ENC
+  #   artifact-name: MDK_RZT_JOY_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_JOY Slot3_JOY
-    artifact-name: MDK_RZT_JOY_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_JOY Slot3_JOY
+  #   artifact-name: MDK_RZT_JOY_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_JOY Slot3_TB
-    artifact-name: MDK_RZT_JOY_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_JOY Slot3_TB
+  #   artifact-name: MDK_RZT_JOY_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_TB Slot3_ENC
-    artifact-name: MDK_RZT_TB_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_TB Slot3_ENC
+  #   artifact-name: MDK_RZT_TB_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_TB Slot3_JOY
-    artifact-name: MDK_RZT_TB_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_TB Slot3_JOY
+  #   artifact-name: MDK_RZT_TB_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_TB Slot3_TB
-    artifact-name: MDK_RZT_TB_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_RZT Slot2_TB Slot3_TB
+  #   artifact-name: MDK_RZT_TB_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_ENC Slot3_ENC
-    artifact-name: MDK_TB_ENC_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_ENC Slot3_ENC
+  #   artifact-name: MDK_TB_ENC_ENC
 
   - board: seeeduino_xiao_ble
     shield: MDK rgbled_adapter nice_oled
     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_ENC Slot3_JOY
     artifact-name: MDK_TB_ENC_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_ENC Slot3_TB
-    artifact-name: MDK_TB_ENC_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_ENC Slot3_TB
+  #   artifact-name: MDK_TB_ENC_TB
 
   - board: seeeduino_xiao_ble
     shield: MDK rgbled_adapter nice_oled
     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_JOY Slot3_ENC
     artifact-name: MDK_TB_JOY_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_JOY Slot3_JOY
-    artifact-name: MDK_TB_JOY_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_JOY Slot3_JOY
+  #   artifact-name: MDK_TB_JOY_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_JOY Slot3_TB
-    artifact-name: MDK_TB_JOY_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_JOY Slot3_TB
+  #   artifact-name: MDK_TB_JOY_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_TB Slot3_ENC
-    artifact-name: MDK_TB_TB_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_TB Slot3_ENC
+  #   artifact-name: MDK_TB_TB_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_TB Slot3_JOY
-    artifact-name: MDK_TB_TB_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_TB Slot3_JOY
+  #   artifact-name: MDK_TB_TB_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_TB Slot3_TB
-    artifact-name: MDK_TB_TB_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_TB Slot3_TB
+  #   artifact-name: MDK_TB_TB_TB
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TPD Slot2_ENC Slot3_ENC
-    artifact-name: MDK_TPD_ENC_ENC
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TPD Slot2_ENC Slot3_ENC
+  #   artifact-name: MDK_TPD_ENC_ENC
 
   - board: seeeduino_xiao_ble
     shield: MDK rgbled_adapter nice_oled
@@ -245,10 +245,10 @@ include:
     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TPD Slot2_JOY Slot3_ENC
     artifact-name: MDK_TPD_JOY_ENC
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TPD Slot2_JOY Slot3_JOY
-    artifact-name: MDK_TPD_JOY_JOY
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TPD Slot2_JOY Slot3_JOY
+  #   artifact-name: MDK_TPD_JOY_JOY
 
   - board: seeeduino_xiao_ble
     shield: MDK rgbled_adapter nice_oled
@@ -265,10 +265,10 @@ include:
     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TPD Slot2_TB Slot3_JOY
     artifact-name: MDK_TPD_TB_JOY
 
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter nice_oled
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TPD Slot2_TB Slot3_TB
-    artifact-name: MDK_TPD_TB_TB
+  # - board: seeeduino_xiao_ble
+  #   shield: MDK rgbled_adapter nice_oled
+  #   snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TPD Slot2_TB Slot3_TB
+  #   artifact-name: MDK_TPD_TB_TB
 
   - board: seeeduino_xiao_ble
     shield: settings_reset

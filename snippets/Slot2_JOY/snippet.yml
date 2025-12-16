@@ -1,4 +1,4 @@
 name: Slot2_JOY
 append:
   EXTRA_DTC_OVERLAY_FILE: Slot2_JOY.overlay
-  EXTRA_CONF_FILE: Slot2_JOY.conf
+  EXTRA_CONF_FILE: ../JOY.conf
