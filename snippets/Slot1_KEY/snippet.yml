@@ -1,4 +1,3 @@
 name: Slot1_KEY
 append:
   EXTRA_DTC_OVERLAY_FILE: Slot1_KEY.overlay
-  EXTRA_CONF_FILE: ../KEY.conf

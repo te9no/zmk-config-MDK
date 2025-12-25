@@ -1,4 +1,3 @@
 name: Slot2_TPD
 append:
   EXTRA_DTC_OVERLAY_FILE: Slot2_TPD.overlay
-  EXTRA_CONF_FILE: ../TPD.conf

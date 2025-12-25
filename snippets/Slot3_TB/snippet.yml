@@ -1,4 +1,3 @@
 name: Slot3_TB
 append:
   EXTRA_DTC_OVERLAY_FILE: Slot3_TB.overlay
-  EXTRA_CONF_FILE: ../TB.conf

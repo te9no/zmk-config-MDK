@@ -1,4 +1,3 @@
 name: Slot1_RZT
 append:
   EXTRA_DTC_OVERLAY_FILE: Slot1_RZT.overlay
-  EXTRA_CONF_FILE: ../RZT.conf
