@@ -1,3 +1,72 @@
 layout: {zmk_keyboard: MDK}
 layers:
-  Def: ['1', '2', '3', ENTER, '4', '5', '6', '7', '8', '9', A, '0', B]
+  Def:
+  - '7'
+  - '8'
+  - '9'
+  - {t: ENTER, h: '4'}
+  - '4'
+  - '5'
+  - '6'
+  - '1'
+  - '2'
+  - '3'
+  - BACKSPACE
+  - '0'
+  - {t: SPACE, h: '1'}
+  '1':
+  - HOME
+  - UP
+  - PG UP
+  - {t: ▽, type: trans}
+  - LEFT
+  - {t: ▽, type: trans}
+  - RIGHT
+  - END
+  - DOWN
+  - PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  '2':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
