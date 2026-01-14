@@ -17,11 +17,6 @@ include:
 
   - board: seeeduino_xiao_ble
     shield: MDK rgbled_adapter
-    snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TPD Slot2_TPD Slot3_TPD
-    artifact-name: MDK_TPD_TPD_TPD
-
-  - board: seeeduino_xiao_ble
-    shield: MDK rgbled_adapter
     snippet: zmk-usb-logging studio-rpc-usb-uart Slot1_TB Slot2_TPD Slot3_ENC
     artifact-name: MDK_TB_TPD_ENC
 
