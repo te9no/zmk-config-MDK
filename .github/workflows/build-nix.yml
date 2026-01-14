@@ -1,23 +1,23 @@
 name: Build ZMK firmware (nix)
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - config/**
-      - boards/**
-      - snippets/**
-      - build.yaml
-    inputs:
-      amend_commit:
-        description: 'Whether to amend the last commit instead of creating a new one. Make sure you understand the implications of rewriting the branch history if you use this option!'
-        type: boolean
-      destination:
-        description: 'Add the output files to a commit, as artifacts or both, values: `commit`, `artifact`, `both`'
-        type: string
-        default: 'commit'
-      artifact_name:
-        description: 'Name of the produced artifact containing SVG and YAML outputs. Ignored if `destination` is `commit`.'
-        type: string
+  # push:
+  #   paths:
+  #     - config/**
+  #     - boards/**
+  #     - snippets/**
+  #     - build.yaml
+  #   inputs:
+  #     amend_commit:
+  #       description: 'Whether to amend the last commit instead of creating a new one. Make sure you understand the implications of rewriting the branch history if you use this option!'
+  #       type: boolean
+  #     destination:
+  #       description: 'Add the output files to a commit, as artifacts or both, values: `commit`, `artifact`, `both`'
+  #       type: string
+  #       default: 'commit'
+  #     artifact_name:
+  #       description: 'Name of the produced artifact containing SVG and YAML outputs. Ignored if `destination` is `commit`.'
+  #       type: string
 
 jobs:
   build:
